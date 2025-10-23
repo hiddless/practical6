@@ -6,7 +6,6 @@ public class right {
         System.out.print("lenht: ");
         int lenht = scn.nextInt();
         int[]duru= new int[lenht];
-
         for(int i=0;i<lenht;i++){
             System.out.print("duru["+i+"]: ");
             duru[i]=scn.nextInt();
@@ -20,16 +19,11 @@ public class right {
         for(int i=0;i<n&&i<lenht;i++){
             newduru[i]=0;
         }
-
-        System.out.print("duru={ ");
+        System.out.print("new={ ");
         for(int i=0;i<lenht;i++){
             System.out.print(newduru[i]);
             if (i < lenht - 1) System.out.print(" ");
         }
         System.out.print(" }");
-
     }
-
-
-
 }
